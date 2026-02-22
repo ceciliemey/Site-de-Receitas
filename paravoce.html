@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Para Você - Receitas Personalizadas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navegacao">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="menu-do-meio">
+            <a href="index.html">Home</a>
+            <a href="paravoce.html" class="link-ativo">Para Você</a>
+        </div>
+    </div>
+
+    <input type="checkbox" id="carne" class="check-logic">
+    <input type="checkbox" id="frango" class="check-logic">
+    <input type="checkbox" id="queijo" class="check-logic">
+    <input type="checkbox" id="ovo" class="check-logic">
+    <input type="checkbox" id="arroz" class="check-logic">
+    <input type="checkbox" id="tomate" class="check-logic">
+    
+    <input type="checkbox" id="fogao" class="check-logic">
+    <input type="checkbox" id="airfryer" class="check-logic">
+    <input type="checkbox" id="microondas" class="check-logic">
+
+    <div class="pagina-ingredientes">
+        
+        <div class="secao-topo">
+            <div class="area-geladeira">
+                <img src="vazia.png" class="geladeira vazia">
+                <img src="cheia.png" class="geladeira media">
+            </div>
+
+            <div class="area-lista">
+                <h2>Ingredientes</h2>
+                <div class="lista-grid">
+                    <label for="carne">Carne</label>
+                    <label for="frango">Frango</label>
+                    <label for="queijo">Queijo</label>
+                    <label for="ovo">Ovo</label>
+                    <label for="arroz">Arroz</label>
+                    <label for="tomate">Tomate</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="secao-preparo">
+            <h2>Modos de preparo</h2>
+            <div class="opcoes-preparo">
+                <label for="fogao" class="card-preparo">
+                    <img src="fogão.png" alt="Fogão">
+                    <div class="check-v"></div>
+                </label>
+
+                <label for="airfryer" class="card-preparo">
+                    <img src="airfryer.png" alt="Airfryer">
+                    <div class="check-v"></div>
+                </label>
+
+                <label for="microondas" class="card-preparo">
+                    <img src="microondas.png" alt="Microondas">
+                    <div class="check-v"></div>
+                </label>
+            </div>
+        </div>
+
+        <div class="secao-final">
+            <h2>A sua receita ideal:</h2>
+            <div class="container-resultados">
+                
+                <div class="card-resultado" id="res-carne-fogao">
+                    <img src="bife-fogao.png" alt="Bife">
+                    <div class="info-texto"><h3>Bife Acebolado</h3><p>No Fogão</p></div>
+                </div>
+                <div class="card-resultado" id="res-carne-airfryer">
+                    <img src="carne-airfryer.png" alt="Carne">
+                    <div class="info-texto"><h3>Carne Assada</h3><p>Na Airfryer</p></div>
+                </div>
+                <div class="card-resultado" id="res-carne-micro">
+                    <img src="carne-micro.png" alt="Carne">
+                    <div class="info-texto"><h3>Carne Moída</h3><p>No Microondas</p></div>
+                </div>
+
+                <div class="card-resultado" id="res-frango-fogao">
+                    <img src="frango-fogao.png" alt="Frango">
+                    <div class="info-texto"><h3>Frango ao Molho</h3><p>No Fogão</p></div>
+                </div>
+                <div class="card-resultado" id="res-frango-airfryer">
+                    <img src="frango-airfryer.png" alt="Frango">
+                    <div class="info-texto"><h3>Frango Crocante</h3><p>Na Airfryer</p></div>
+                </div>
+                <div class="card-resultado" id="res-frango-micro">
+                    <img src="frango-micro.png" alt="Frango">
+                    <div class="info-texto"><h3>Frango Desfiado</h3><p>No Microondas</p></div>
+                </div>
+
+                <div class="card-resultado" id="res-queijo-fogao">
+                    <img src="queijo-fogao.png" alt="Queijo">
+                    <div class="info-texto"><h3>Queijo Quente</h3><p>No Fogão</p></div>
+                </div>
+                <div class="card-resultado" id="res-queijo-airfryer">
+                    <img src="queijo-airfryer.png" alt="Queijo">
+                    <div class="info-texto"><h3>Chips de Queijo</h3><p>Na Airfryer</p></div>
+                </div>
+                <div class="card-resultado" id="res-queijo-micro">
+                    <img src="queijo-micro.png" alt="Queijo">
+                    <div class="info-texto"><h3>Fondue Rápido</h3><p>No Microondas</p></div>
+                </div>
+
+                <div class="card-resultado" id="res-ovo-fogao">
+                    <img src="ovo-fogao.png" alt="Ovo">
+                    <div class="info-texto"><h3>Omelete</h3><p>No Fogão</p></div>
+                </div>
+                <div class="card-resultado" id="res-ovo-airfryer">
+                    <img src="ovo-airfryer.png" alt="Ovo">
+                    <div class="info-texto"><h3>Ovo "Frito"</h3><p>Na Airfryer</p></div>
+                </div>
+                <div class="card-resultado" id="res-ovo-micro">
+                    <img src="ovo-micro.png" alt="Ovo">
+                    <div class="info-texto"><h3>Ovo Mexido</h3><p>No Microondas</p></div>
+                </div>
+
+                <div class="card-resultado" id="res-arroz-fogao">
+                    <img src="arroz-fogao.png" alt="Arroz">
+                    <div class="info-texto"><h3>Arroz Soltinho</h3><p>No Fogão</p></div>
+                </div>
+                <div class="card-resultado" id="res-arroz-airfryer">
+                    <img src="arroz-airfryer.png" alt="Arroz">
+                    <div class="info-texto"><h3>Bolinho de Arroz</h3><p>Na Airfryer</p></div>
+                </div>
+                <div class="card-resultado" id="res-arroz-micro">
+                    <img src="arroz-micro.png" alt="Arroz">
+                    <div class="info-texto"><h3>Arroz de Caneca</h3><p>No Microondas</p></div>
+                </div>
+
+                <div class="card-resultado" id="res-tomate-fogao">
+                    <img src="tomate-fogao.png" alt="Tomate">
+                    <div class="info-texto"><h3>Molho Caseiro</h3><p>No Fogão</p></div>
+                </div>
+                <div class="card-resultado" id="res-tomate-airfryer">
+                    <img src="tomate-airfryer.png" alt="Tomate">
+                    <div class="info-texto"><h3>Tomate Confit</h3><p>Na Airfryer</p></div>
+                </div>
+                <div class="card-resultado" id="res-tomate-micro">
+                    <img src="tomate-micro.png" alt="Tomate">
+                    <div class="info-texto"><h3>Tomate Recheado</h3><p>No Microondas</p></div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
