@@ -98,7 +98,7 @@
 .vegetais {
     pointer-events: none;
     position: absolute;
-    bottom: -40px;
+    bottom: -20px;
     left: 0;
     width: 100%;
 }
@@ -373,4 +373,5 @@
 
 .card-preparo:hover {
     animation: pulsar 1.5s infinite;
+
 }
